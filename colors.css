@@ -1,0 +1,208 @@
+/*
+div {
+  background: dimgray;
+  padding: 20px 30px 30px 40px;
+  margin: 0;
+  width: 960px;
+}*/
+/*
+.container .box { 
+  width:960px; 
+  margin:50px; 
+  display:table; 
+} 
+.container .box .box-row { 
+  display:table-row; 
+} 
+.container .box .box-cell { 
+  display:table-cell; 
+  width:33%;
+  padding:10px;
+} 
+.container .box .box-cell.box1 { 
+  background:green; 
+  color:white; 
+  text-align:justify; 
+} 
+.container .box .box-cell.box2 { 
+  background:lightgreen; 
+  text-align:justify 
+} 
+.container .box .box-cell.box3 { 
+  background:lime; 
+  text-align:justify; 
+}
+*/
+
+
+
+/*#page (leveys 960px, marginaalit: ylä ja ala 0 vasen ja oikea auto, joka keskittää sivun ikkunaan)*/
+#page {
+  width: 960px;
+  margin: 0 auto 0;
+}
+/*#header (leveys 960px, korkeus 80px sekä sopiva taustaväri)*/
+#header {
+  width: 960px;
+  height: 80px;
+  background: dimgray;
+}
+/*#header_logo, #header_center, #header_right (voivat olla esim. 320px kukin osio)*/
+#header_logo {
+  width: 314px;
+  height: 74px;
+  text-align: center;
+  float: left;
+  border-style: dotted;
+}
+#header_center {
+  width: 314px;
+  height: 74px;
+  text-align: center;
+  float: left;
+  border-style: dotted;
+}
+#header_right {
+  width: 314px;
+  height: 74px;
+  text-align: center;
+  float: left;
+  border-style: dotted;
+}
+
+/*#content (alkaa taas vasemmalta:float)*/
+#content {
+  width: 960px;
+  height: 470px;
+}
+#content_left {
+  width: 454px;
+  height: 200px;
+  text-align: center;
+  margin-right: 20px;
+  float: left;
+  border-style: dotted;
+  border-radius: 50px 20px;
+  overflow: auto;
+}
+#content_right {
+  width: 454px;
+  height: 200px;
+  text-align: center;
+  margin-left: 20px;
+  float: left;
+  border-style: dotted;
+  border-radius: 50px 20px;
+  overflow: auto;
+}
+
+/*footer*/
+#footer {
+  height: 30px;
+  font-size: 85%;
+  text-align: center;
+  background-color: dimgray;
+  color: white;
+}
+
+/**/
+a:link {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+/**/
+a:visited {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+/**/
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/**/
+a:active {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/**/
+.banner {
+background-color: lightblue;
+  color: white;
+  padding: 60px;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+}
+/**/
+.menu {
+  background-color: dimgray;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 960px;
+    height: 30px;
+    margin: 0 auto 0;
+    /*margin-top: auto;*/
+    /*vertical-align: top;*/
+    text-align: center;
+  }
+/**/
+.sectitl {
+  background-color: dimgray;
+    color: white;
+    text-align: left;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+  }
+/**/
+.nav {
+    height: 30px;
+    font-size: 95%;
+    text-align: left;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+/**/
+.hstuff {
+  margin: 0;
+  text-align: left;
+  font-family: Verdana;
+  background-color:lightseagreen;
+
+}
+
+.stuff {
+  margin: 0;
+  text-align: center;
+  font-family: Verdana;
+  background-color:lightseagreen;
+
+}
+/**/
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}
+
+
+/**/
+table, th, td {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+  padding: 5px;
+}
+.upper {
+  font-size: 1.2em;
+  background-color:lightseagreen;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+table#asiakkaat tr:nth-child(even) {
+  background-color: #eee;
+  }

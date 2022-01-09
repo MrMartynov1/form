@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Artturi Martynov</title>
+	<link rel="stylesheet" type="text/css" href="colors.css">
+</head>
+
+	<header>
+	<div id="page">
+			<div id="header">
+				<div id="header_logo">
+					<img src="images/logo.png" alt="Logo" style="display:block; margin-left: auto; margin-right: auto;">
+				</div>
+				<div id="header_center">
+					<p style="margin: 20px;">Tekstiä. Tekstiä. Tekstiä.</p>
+				</div>
+				<div id="header_right">
+					<p style="margin: 20px;">Tekstiä. Tekstiä. Tekstiä. </p>
+				</div>
+			</div>
+	</div>
+	</header>
+	
+<body class="hstuff">
+
+	<p class="menu"><a href="index.html" title="Artturi - Etusivu">Etusivu</a> | <a href="harr.html" title="Artturi - Harrastukset">Harrastukset</a> | <a href="portf.html" title="Artturi - Portfolio">Portfolio</a></p>
+	<br>
+
+	<div id="page">
+		<div id="content">
+			<div id="content_left">
+				<p style="margin: 20px;">Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. </p>
+			</div>
+			<div id="content_right">
+				<p style="margin: 20px;">Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. Tekstiä. </p>
+			</div>
+		</div>
+	</div>
+
+</body>
+<footer >
+	<div id="page">
+		<div id="footer">
+			<p>© Artturi Martynov 2021</p>
+		</div>
+	</div>
+</footer>
+</html>

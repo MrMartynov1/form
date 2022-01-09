@@ -1,0 +1,6 @@
+Harjoitustehtävä:
+
+Tee Azureen asiakkaan rekisteröitymislomake, johon syötetään etunimi, sukunimi, sähköposti, puhelin ja osoitetiedot (katuosoite, postinumero, postitoimipaikka).
+Tee lomakkeeseen validoinnit kaikille kentille, jotta rekisteröitymislomakkeen kautta voi syöttää vain oikeellista ja laadukasta dataa.
+Bottien varalta varmistetaan captchalla lomake ennen lähetystä.
+Osa 2: Lomake lähetetään json-muodossa Azureen jonoon, josta se voidaan hakea toiseen sivuun näkyville ja hyväksyttäväksi.
